@@ -29,17 +29,25 @@
 </head>
 <body>
     <div class="description-container">
-        <h2>Project 1: Wireless Laboratory Experiment Design Using Software Radios</h2>
-        <img src="{{ url_for('static', filename='Wirelesslab.png') }}" alt="Project Image">
+        <h2>Vacine SMS Appointmnet & Reminder Confirmation</h2>
+        <img src="{{ url_for('static', filename='Vaccine.png') }}" alt="Project Image">
         <p>
-            Designed a wireless laboratory for SJSU's electrical engineering course "EE 160 Principles of Communication Systems."
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at sem lorem. Morbi elementum felis neque, sit amet finibus tortor aliquet in.
-            Nullam pulvinar mauris eget odio malesuada efficitur. In venenatis ex a mauris suscipit, vel vulputate enim consectetur. Donec semper accumsan odio,
-            et vulputate mauris luctus ac. Ut nec purus eros. Pellentesque nec sapien rutrum, consequat tortor id, sagittis urna. Nulla a malesuada massa.
-            Fusce sed lacus sed risus eleifend ullamcorper. Curabitur eu facilisis tellus, eget facilisis metus. Fusce viverra lacus eget arcu sollicitudin,
-            in feugiat odio tristique. Nullam vulputate lacinia facilisis. Sed tincidunt felis et eleifend varius. Fusce volutpat, nisl non fringilla ullamcorper,
-            augue diam egestas sem, in condimentum neque est nec purus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
-            Nulla malesuada rutrum felis at facilisis.
+            Programed a Tkinter based GUI vaccination/clinet portal with username login & password. 
+            Used a GUI based from to extract patient information (name, adress, phone number etc.).
+            This created a vaccination appointmnet date for the 1st dosage and a second appointment date
+            for the second dosage 3 months latter. User got an instang SMS confiming their credentials
+            and the time and date for the first and second appointment. Patient also got an SMS notfication
+            1 week before their second vaccination appoiontment as a reminder. SMS fucntibnality was provided 
+            by the Twilio API. 
+        </p>
+    </div>
+    <div class="description-container">
+        <h2>Login/Registration Page</h2>
+        <img src="{{ url_for('static', filename='VaccineLogin.png') }}" alt="Project Image">
+        <p>
+            The user is given the option to login to their account and fill out their vaccination form. 
+            If the patinet was not registred they had the option to register with their chosen username 
+            and password.  
         </p>
     </div>
 </body>
